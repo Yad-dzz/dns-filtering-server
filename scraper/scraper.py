@@ -152,7 +152,7 @@ def save_text_content(folder, text):
 
 # Run the script
 if __name__ == "__main__":
-    test_domains = ["youtube.com", "instagram.com", "linkedin.com", "tiktok.com"]
+    test_domains = ["youtube.com", "instagram.com", "tiktok.com"]
     for domain in test_domains:
         content = scrape_website(domain)
         
